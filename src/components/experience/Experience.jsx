@@ -31,6 +31,16 @@ const Experience = () => {
               <div><h4>React</h4>
               <small className='text-light'>Intermediate</small></div>
             </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon' />
+              <div><h4>Flutter</h4>
+              <small className='text-light'>Intermediate</small></div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon' />
+              <div><h4>Tailwind</h4>
+              <small className='text-light'>Intermediate</small></div>
+            </article>
           </div>
         </div>
 
@@ -50,6 +60,16 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon' />
               <div><h4>Python</h4>
+              <small className='text-light'>Intermediate</small></div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon' />
+              <div><h4>Django</h4>
+              <small className='text-light'>Intermediate</small></div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon' />
+              <div><h4>Java</h4>
               <small className='text-light'>Intermediate</small></div>
             </article>
             

@@ -1,22 +1,26 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/me3.png'
+
+import IMG1 from '../../assets/Menu.png'
+import IMG2 from '../../assets/output.jpg'
 /* eslint-disable import/first */
 const data=[
   {
     id:1,
     image: IMG1,
-    title: 'This is a portfolio title',
+    title: 'Restuarant Menu',
     github:'https://github.com',
-    demo:'https://dribbble.com'
+    demo:'https://lacompania.000webhostapp.com/'
   },
   {
     id:2,
-    image: IMG1,
-    title: 'This is a portfolio title',
+    image: IMG2,
+    title: 'Riesgo Suicida',
     github:'https://github.com',
-    demo:'https://dribbble.com'
+    demo:'https://lacompania.000webhostapp.com/',
+    
   },
+  
 ]
 const Portfolio = () => {
   return (

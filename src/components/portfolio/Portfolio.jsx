@@ -9,15 +9,15 @@ const data=[
     id:1,
     image: IMG1,
     title: 'Restuarant Menu',
-    github:'https://github.com',
-    demo:'https://lacompania.000webhostapp.com/'
+    github:'https://github.com/Alexlife2002003/Menu',
+    demo:'https://alexlife2002003.github.io/Menu/cd'
   },
   {
     id:2,
     image: IMG2,
     title: 'Riesgo Suicida',
-    github:'https://github.com',
-    demo:'https://lacompania.000webhostapp.com/',
+    github:'https://github.com/Alexlife2002003/RiesgoSuicida',
+    demo:'https://www.mediafire.com/file/x2ria7sx96zxz1o/app-release.apk/file',
     
   },
   

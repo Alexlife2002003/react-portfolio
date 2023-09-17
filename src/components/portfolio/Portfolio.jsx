@@ -17,7 +17,7 @@ const data=[
     image: IMG2,
     title: 'Riesgo Suicida',
     github:'https://github.com/Alexlife2002003/RiesgoSuicida',
-    demo:'https://www.mediafire.com/file/x2ria7sx96zxz1o/app-release.apk/file',
+    demo:'https://alexlife2002003.github.io/RiesgoSuicida-HTML/',
     
   },
   

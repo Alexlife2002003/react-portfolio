@@ -3,6 +3,7 @@ import './portfolio.css'
 
 import IMG1 from '../../assets/Menu.png'
 import IMG2 from '../../assets/output.jpg'
+import IMG3 from '../../assets/collectors.png'
 /* eslint-disable import/first */
 const data=[
   {
@@ -17,9 +18,18 @@ const data=[
     image: IMG2,
     title: 'Riesgo Suicida',
     github:'https://github.com/Alexlife2002003/RiesgoSuicida',
-    demo:'https://www.mediafire.com/file/x2ria7sx96zxz1o/app-release.apk/file',
+    demo:'https://alexlife2002003.github.io/RiesgoSuicida-HTML/',
     
   },
+  {
+    id:3,
+    image: IMG3,
+    title: 'Collectors Center',
+    github:'https://github.com/Alexlife2002003/Collection_Center',
+    demo:'https://alexlife2002003.github.io/CollectionCenter/',
+    
+  },
+  
   
 ]
 const Portfolio = () => {

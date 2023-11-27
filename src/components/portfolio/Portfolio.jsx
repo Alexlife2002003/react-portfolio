@@ -11,7 +11,7 @@ const data=[
     image: IMG1,
     title: 'Restuarant Menu',
     github:'https://github.com/Alexlife2002003/Menu',
-    demo:'https://alexlife2002003.github.io/Menu/cd'
+    demo:'https://alexlife2002003.github.io/Menu/'
   },
   {
     id:2,

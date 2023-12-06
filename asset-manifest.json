@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c83af6ad.css",
-    "main.js": "/react-portfolio/static/js/main.1db260a7.js",
-    "static/media/Menu.png": "/react-portfolio/static/media/Menu.9048fa68ed08cdba4e3d.png",
-    "static/media/me.png": "/react-portfolio/static/media/me.d4e07dde2b8b2de60b84.png",
-    "static/media/me3.png": "/react-portfolio/static/media/me3.05adbd3ec953d0b37188.png",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.673fb6cbc26d42cfb0ee.pdf",
-    "static/media/output.jpg": "/react-portfolio/static/media/output.44510e52d4e73c8f624e.jpg",
-    "static/media/bg-texture.jpg": "/react-portfolio/static/media/bg-texture.3f9aaee50f43b5a3e76d.jpg",
-    "index.html": "/react-portfolio/index.html",
-    "main.c83af6ad.css.map": "/react-portfolio/static/css/main.c83af6ad.css.map",
-    "main.1db260a7.js.map": "/react-portfolio/static/js/main.1db260a7.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.c83af6ad.css",
-    "static/js/main.1db260a7.js"
-  ]
+    "main.css": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/css/main.9f55c046.chunk.css",
+    "main.js": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/js/main.2fe878ea.chunk.js",
+    "main.js.map": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/js/main.2fe878ea.chunk.js.map",
+    "runtime~main.js": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/js/runtime~main.b8383cdb.js",
+    "runtime~main.js.map": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/js/runtime~main.b8383cdb.js.map",
+    "static/js/2.1bedeb2d.chunk.js": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/js/2.1bedeb2d.chunk.js",
+    "static/js/2.1bedeb2d.chunk.js.map": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/js/2.1bedeb2d.chunk.js.map",
+    "index.html": "%3Cusername%3E.github.io/%3Crepository-name%3E/index.html",
+    "precache-manifest.5f47fa2ccda0490b9eeb64feb821c74c.js": "%3Cusername%3E.github.io/%3Crepository-name%3E/precache-manifest.5f47fa2ccda0490b9eeb64feb821c74c.js",
+    "service-worker.js": "%3Cusername%3E.github.io/%3Crepository-name%3E/service-worker.js",
+    "static/css/main.9f55c046.chunk.css.map": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/css/main.9f55c046.chunk.css.map",
+    "static/media/CASE.png": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/media/CASE.b622fdc3.png",
+    "static/media/Menu.png": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/media/Menu.3b7cf8a5.png",
+    "static/media/index.css": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/media/bg-texture.18dec6b0.jpg",
+    "static/media/collectors.png": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/media/collectors.afea61d5.png",
+    "static/media/me.png": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/media/me.5e289bcb.png",
+    "static/media/me3.png": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/media/me3.f641bf03.png",
+    "static/media/output.jpg": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/media/output.c730f48d.jpg",
+    "static/media/resume.pdf": "%3Cusername%3E.github.io/%3Crepository-name%3E/static/media/resume.53c8ec12.pdf"
+  }
 }

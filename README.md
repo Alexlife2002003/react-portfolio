@@ -25,4 +25,19 @@ It correctly bundles React in production mode and optimizes the build for the be
 Installs the dependancy react-scripts
 
 
+``
+## deploy on github
+### Step 1: Install gh-pages 
+`npm install --save-dev gh-pages
+`
+### Step 2: update package.json
+`"homepage": "https://<username>.github.io/<repository-name>",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+}`
+
+### Step 3: Deploy to GitHub Pages
+`npm run deploy`
+This script will build your React app and publish it to the gh-pages branch of your GitHub repository.
 

@@ -20,7 +20,7 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 
-### 'npm install react-scripts --save'
+### `npm install react-scripts --save`
 
 Installs the dependancy react-scripts
 

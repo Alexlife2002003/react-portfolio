@@ -5,6 +5,7 @@ import IMG1 from '../../assets/Menu.png'
 import IMG2 from '../../assets/output.jpg'
 import IMG3 from  '../../assets/collectors.png'
 import IMG4 from '../../assets/CASE.png'
+import IMG5 from '../../assets/todo.png'
 /* eslint-disable import/first */
 const data=[
   {
@@ -36,6 +37,14 @@ const data=[
     title: 'CASE',
     github:'https://github.com/Alexlife2002003/CASE',
     demo:'https://alexlife2002003.github.io/CASE-html/',
+    
+  },
+  {
+    id:5,
+    image: IMG5,
+    title: 'To-do App',
+    github:'https://github.com/Alexlife2002003/TODO-LIST',
+    demo:'https://alexlife2002003.github.io/TODO-LIST/',
     
   },
   

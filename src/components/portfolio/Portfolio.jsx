@@ -3,7 +3,8 @@ import './portfolio.css'
 
 import IMG1 from '../../assets/Menu.png'
 import IMG2 from '../../assets/output.jpg'
-import IMG3 from '../../assets/collectors.png'
+import IMG3 from  '../../assets/collectors.png'
+import IMG4 from '../../assets/CASE.png'
 /* eslint-disable import/first */
 const data=[
   {
@@ -27,6 +28,14 @@ const data=[
     title: 'Collectors Center',
     github:'https://github.com/Alexlife2002003/Collection_Center',
     demo:'https://alexlife2002003.github.io/CollectionCenter/',
+    
+  },
+  {
+    id:4,
+    image: IMG4,
+    title: 'CASE',
+    github:'https://github.com/Alexlife2002003/CASE',
+    demo:'https://alexlife2002003.github.io/CASE-html/',
     
   },
   

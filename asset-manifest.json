@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.108e5fb1.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.2fe878ea.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.2fe878ea.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.a15a9ba3.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.834963fb.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.834963fb.chunk.js.map",
     "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
     "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f974a8eb.js.map",
-    "static/js/2.1bedeb2d.chunk.js": "/react-portfolio/static/js/2.1bedeb2d.chunk.js",
-    "static/js/2.1bedeb2d.chunk.js.map": "/react-portfolio/static/js/2.1bedeb2d.chunk.js.map",
+    "static/js/2.181ea991.chunk.js": "/react-portfolio/static/js/2.181ea991.chunk.js",
+    "static/js/2.181ea991.chunk.js.map": "/react-portfolio/static/js/2.181ea991.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.7d91f0247e1a7807eb8355d62199f999.js": "/react-portfolio/precache-manifest.7d91f0247e1a7807eb8355d62199f999.js",
+    "precache-manifest.7e4508f42644983db916fa366c4a54ea.js": "/react-portfolio/precache-manifest.7e4508f42644983db916fa366c4a54ea.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.108e5fb1.chunk.css.map": "/react-portfolio/static/css/main.108e5fb1.chunk.css.map",
+    "static/css/main.a15a9ba3.chunk.css.map": "/react-portfolio/static/css/main.a15a9ba3.chunk.css.map",
     "static/media/CASE.png": "/react-portfolio/static/media/CASE.b622fdc3.png",
     "static/media/Menu.png": "/react-portfolio/static/media/Menu.3b7cf8a5.png",
-    "static/media/index.css": "/react-portfolio/static/media/bg-texture.18dec6b0.jpg",
     "static/media/collectors.png": "/react-portfolio/static/media/collectors.afea61d5.png",
     "static/media/me.png": "/react-portfolio/static/media/me.5e289bcb.png",
     "static/media/me3.png": "/react-portfolio/static/media/me3.f641bf03.png",
     "static/media/output.jpg": "/react-portfolio/static/media/output.c730f48d.jpg",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.53c8ec12.pdf"
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.53c8ec12.pdf",
+    "static/media/todo.png": "/react-portfolio/static/media/todo.249227a7.png"
   }
 }

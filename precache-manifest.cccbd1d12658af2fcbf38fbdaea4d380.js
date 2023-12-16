@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f19d93e2b232966d0c6dc3864a55b209",
+    "revision": "cdcde17004bd0c1ecb08672da3aecb50",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "78bf93df606d89c8ab88",
-    "url": "/react-portfolio/static/css/main.6b42df74.chunk.css"
+    "revision": "f07a1649f21c935862a0",
+    "url": "/react-portfolio/static/css/main.108e5fb1.chunk.css"
   },
   {
     "revision": "edc785e514a3337fa27f",
     "url": "/react-portfolio/static/js/2.2f14cbc9.chunk.js"
   },
   {
-    "revision": "78bf93df606d89c8ab88",
+    "revision": "f07a1649f21c935862a0",
     "url": "/react-portfolio/static/js/main.fbb04c92.chunk.js"
   },
   {
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3b7cf8a5d44d819c068e9b3d567bfc3f",
     "url": "/react-portfolio/static/media/Menu.3b7cf8a5.png"
+  },
+  {
+    "revision": "18dec6b0d12f7da91ce2092bcf7d11b7",
+    "url": "/react-portfolio/static/media/bg-texture.18dec6b0.jpg"
   },
   {
     "revision": "afea61d5b5c8bb07d8454152f127be4f",

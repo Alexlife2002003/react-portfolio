@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/resume.pdf';
+import CV from '../../assets/CV_Alexia.pdf';
 //<a href={cv} download> Download CV></a>
 const CTA = () => {
   return (

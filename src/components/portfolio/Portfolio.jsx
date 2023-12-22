@@ -6,6 +6,7 @@ import IMG2 from '../../assets/output.jpg'
 import IMG3 from  '../../assets/collectors.png'
 import IMG4 from '../../assets/CASE.png'
 import IMG5 from '../../assets/todo.png'
+import IMG6 from '../../assets/github_users.png'
 /* eslint-disable import/first */
 const data=[
   {
@@ -45,6 +46,14 @@ const data=[
     title: 'To-do App',
     github:'https://github.com/Alexlife2002003/TODO-LIST',
     demo:'https://alexlife2002003.github.io/TODO-LIST/',
+    
+  },
+  {
+    id:6,
+    image: IMG6,
+    title: 'Github Users',
+    github:'https://github.com/Alexlife2002003/github_users_search',
+    demo:'https://githubusers-408922.wn.r.appspot.com/',
     
   },
   

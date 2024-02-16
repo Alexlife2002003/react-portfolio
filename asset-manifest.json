@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.70c836ee.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.5be6ad20.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.5be6ad20.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.2e477372.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.2e477372.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.4a88bb1c.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.4a88bb1c.js.map",
     "static/js/2.f8f1394d.chunk.js": "/react-portfolio/static/js/2.f8f1394d.chunk.js",
     "static/js/2.f8f1394d.chunk.js.map": "/react-portfolio/static/js/2.f8f1394d.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.16bb222dc98310a56216d2ba4085637a.js": "/react-portfolio/precache-manifest.16bb222dc98310a56216d2ba4085637a.js",
+    "precache-manifest.a73cbe596915cf4aa2c807732ba016ef.js": "/react-portfolio/precache-manifest.a73cbe596915cf4aa2c807732ba016ef.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/main.70c836ee.chunk.css.map": "/react-portfolio/static/css/main.70c836ee.chunk.css.map",
     "static/js/2.f8f1394d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f8f1394d.chunk.js.LICENSE.txt",
     "static/media/CASE.png": "/react-portfolio/static/media/CASE.b622fdc3.png",
-    "static/media/CV_Alexia.pdf": "/react-portfolio/static/media/CV_Alexia.18de7d9c.pdf",
+    "static/media/CV_Alexia.pdf": "/react-portfolio/static/media/CV_Alexia.abc1dfec.pdf",
     "static/media/CinemaMagic.png": "/react-portfolio/static/media/CinemaMagic.45a94cca.png",
     "static/media/Menu.png": "/react-portfolio/static/media/Menu.3b7cf8a5.png",
     "static/media/index.css": "/react-portfolio/static/media/bg-texture.18dec6b0.jpg",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.4a88bb1c.js",
     "static/js/2.f8f1394d.chunk.js",
     "static/css/main.70c836ee.chunk.css",
-    "static/js/main.5be6ad20.chunk.js"
+    "static/js/main.2e477372.chunk.js"
   ]
 }

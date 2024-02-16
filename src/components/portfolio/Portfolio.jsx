@@ -7,6 +7,7 @@ import IMG3 from  '../../assets/collectors.png'
 import IMG4 from '../../assets/CASE.png'
 import IMG5 from '../../assets/todo.png'
 import IMG6 from '../../assets/github_users.png'
+import IMG7 from '../../assets/CinemaMagic.png'
 /* eslint-disable import/first */
 const data=[
   {
@@ -56,6 +57,16 @@ const data=[
     demo:'https://githubusers-408922.wn.r.appspot.com/',
     
   },
+
+  {
+    id:7,
+    image: IMG7,
+    title: 'Github Users',
+    github:'https://github.com/Alexlife2002003/CinemaMagic',
+    demo:'https://alexlife2002003.github.io/CinemaMagic/',
+    
+  },
+  
   
   
 ]

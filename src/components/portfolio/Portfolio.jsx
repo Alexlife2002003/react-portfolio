@@ -61,7 +61,7 @@ const data=[
   {
     id:7,
     image: IMG7,
-    title: 'Github Users',
+    title: 'Cinema Magic',
     github:'https://github.com/Alexlife2002003/CinemaMagic',
     demo:'https://alexlife2002003.github.io/CinemaMagic/',
     

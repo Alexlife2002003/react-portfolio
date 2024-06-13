@@ -1,0 +1,62 @@
+ALEXIA Hernandez Martinez 
+(492) 225 3957
+hernandezmtzalexia@gmail.com
+
+Summary
+
+Excellent communicator who can meet deadlines and solve problems quickly.
+Relationship-building, decision-making, and communication abilities are exceptional.
+Software Engineer who is self-directed and motivated and has worked in a variety of dynamic environments.
+Python and Java are two programming languages in which I am an expert.
+True team player with adaptability and accuracy as strengths.
+Speaks English and Spanish fluently
+
+Experience
+Internship Student 
+INIFAP                   03/2024 - 06/2024
+Update PHP APIs
+Develop flutter app
+Collaborate with stakeholders
+Design user interface
+Performing tests
+Creator 
+Riesgo Suicida                   08/2022 - 01/2024
+Utilized flutter to make t h e app.
+Designed app interface.
+Utilized dart for backend.
+Writing code for specific modules or features.
+Collaborating with stakeholders to define project goals and objectives.
+Conducting code reviews to ensure code quality and adherence to coding standards.
+School Project 
+Collectors Center                   09/2023 - 11/2023
+Utilized flutter to make the app
+Followed ISO/IEC 29110
+Writing code for specific features
+Conducting code reviews to ensure code quality
+Performing testing and fixing defects.
+Collaborating with stakeholders to define project goals and objectives
+
+Skills
+Web Development: HTML, CSS
+Software Development: Django framework
+Version Control Systems: Git
+Database Management: MySQL
+Flutter
+Java
+Dart
+Python
+React
+Testing: Selenium and behave
+
+Education
+Autonomous University of Zacatecas                   Software Engineering 
+12/2024
+Zacatecas 
+GPA 3.9
+Volunteered as student mentor
+Bachelor´s Degree
+TOEFL: 643 points
+Cetis113                   Software 
+08/2020
+Zacatecas 
+Technological HighSchool

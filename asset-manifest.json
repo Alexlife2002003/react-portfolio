@@ -1,33 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.70c836ee.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.8d415d7e.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.8d415d7e.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.4a88bb1c.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.4a88bb1c.js.map",
-    "static/js/2.f8f1394d.chunk.js": "/react-portfolio/static/js/2.f8f1394d.chunk.js",
-    "static/js/2.f8f1394d.chunk.js.map": "/react-portfolio/static/js/2.f8f1394d.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.8ede3b1d.css",
+    "main.js": "/react-portfolio/static/js/main.d63a0817.js",
+    "static/media/Menu.png": "/react-portfolio/static/media/Menu.9048fa68ed08cdba4e3d.png",
+    "static/media/CinemaMagic.png": "/react-portfolio/static/media/CinemaMagic.076d953e1085d6a9f9c6.png",
+    "static/media/me.png": "/react-portfolio/static/media/me.d4e07dde2b8b2de60b84.png",
+    "static/media/collectors.png": "/react-portfolio/static/media/collectors.37bc18ff3c8071923904.png",
+    "static/media/me3.png": "/react-portfolio/static/media/me3.05adbd3ec953d0b37188.png",
+    "static/media/CV_Alexia.pdf": "/react-portfolio/static/media/CV_Alexia.2679ca925ec7359c7bcb.pdf",
+    "static/media/inifap.png": "/react-portfolio/static/media/inifap.e5de8c7c4570496523e6.png",
+    "static/media/CASE.png": "/react-portfolio/static/media/CASE.cf33565c6aa12b6a6f1f.png",
+    "static/media/github_users.png": "/react-portfolio/static/media/github_users.9660183bb7f5f3d2ea56.png",
+    "static/media/output.jpg": "/react-portfolio/static/media/output.44510e52d4e73c8f624e.jpg",
+    "static/media/bg-texture.jpg": "/react-portfolio/static/media/bg-texture.3f9aaee50f43b5a3e76d.jpg",
+    "static/media/todo.png": "/react-portfolio/static/media/todo.5344edd8f9614dee87dd.png",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.3a9c433836a21cfaeea80f2ff171b786.js": "/react-portfolio/precache-manifest.3a9c433836a21cfaeea80f2ff171b786.js",
-    "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.70c836ee.chunk.css.map": "/react-portfolio/static/css/main.70c836ee.chunk.css.map",
-    "static/js/2.f8f1394d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f8f1394d.chunk.js.LICENSE.txt",
-    "static/media/CASE.png": "/react-portfolio/static/media/CASE.b622fdc3.png",
-    "static/media/CV_Alexia.pdf": "/react-portfolio/static/media/CV_Alexia.abc1dfec.pdf",
-    "static/media/CinemaMagic.png": "/react-portfolio/static/media/CinemaMagic.45a94cca.png",
-    "static/media/Menu.png": "/react-portfolio/static/media/Menu.3b7cf8a5.png",
-    "static/media/index.css": "/react-portfolio/static/media/bg-texture.18dec6b0.jpg",
-    "static/media/collectors.png": "/react-portfolio/static/media/collectors.afea61d5.png",
-    "static/media/github_users.png": "/react-portfolio/static/media/github_users.84782b93.png",
-    "static/media/me.png": "/react-portfolio/static/media/me.5e289bcb.png",
-    "static/media/me3.png": "/react-portfolio/static/media/me3.f641bf03.png",
-    "static/media/output.jpg": "/react-portfolio/static/media/output.c730f48d.jpg",
-    "static/media/todo.png": "/react-portfolio/static/media/todo.249227a7.png"
+    "main.8ede3b1d.css.map": "/react-portfolio/static/css/main.8ede3b1d.css.map",
+    "main.d63a0817.js.map": "/react-portfolio/static/js/main.d63a0817.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a88bb1c.js",
-    "static/js/2.f8f1394d.chunk.js",
-    "static/css/main.70c836ee.chunk.css",
-    "static/js/main.8d415d7e.chunk.js"
+    "static/css/main.8ede3b1d.css",
+    "static/js/main.d63a0817.js"
   ]
 }

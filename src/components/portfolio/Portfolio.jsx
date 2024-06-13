@@ -3,72 +3,82 @@ import './portfolio.css'
 
 import IMG1 from '../../assets/Menu.png'
 import IMG2 from '../../assets/output.jpg'
-import IMG3 from  '../../assets/collectors.png'
+import IMG3 from '../../assets/collectors.png'
 import IMG4 from '../../assets/CASE.png'
 import IMG5 from '../../assets/todo.png'
 import IMG6 from '../../assets/github_users.png'
 import IMG7 from '../../assets/CinemaMagic.png'
+import IMG8 from '../../assets/inifap.png'
 /* eslint-disable import/first */
-const data=[
+const data = [
   {
-    id:1,
+    id: 1,
     image: IMG1,
     title: 'Restuarant Menu',
-    github:'https://github.com/Alexlife2002003/Menu',
-    demo:'https://alexlife2002003.github.io/Menu/'
+    github: 'https://github.com/Alexlife2002003/Menu',
+    demo: 'https://alexlife2002003.github.io/Menu/'
   },
   {
-    id:2,
+    id: 2,
     image: IMG2,
     title: 'Riesgo Suicida',
-    github:'https://github.com/Alexlife2002003/RiesgoSuicida',
-    demo:'https://alexlife2002003.github.io/RiesgoSuicida-HTML/',
-    
+    github: 'https://github.com/Alexlife2002003/RiesgoSuicida',
+    demo: 'https://alexlife2002003.github.io/RiesgoSuicida-HTML/',
+
   },
   {
-    id:3,
+    id: 3,
     image: IMG3,
     title: 'Collectors Center',
-    github:'https://github.com/Alexlife2002003/Collection_Center',
-    demo:'https://alexlife2002003.github.io/CollectionCenter/',
-    
+    github: 'https://github.com/Alexlife2002003/Collection_Center',
+    demo: 'https://alexlife2002003.github.io/CollectionCenter/',
+
   },
   {
-    id:4,
+    id: 4,
     image: IMG4,
     title: 'CASE',
-    github:'https://github.com/Alexlife2002003/CASE',
-    demo:'https://alexlife2002003.github.io/CASE-html/',
-    
+    github: 'https://github.com/Alexlife2002003/CASE',
+    demo: 'https://alexlife2002003.github.io/CASE-html/',
+
   },
   {
-    id:5,
+    id: 5,
     image: IMG5,
     title: 'To-do App',
-    github:'https://github.com/Alexlife2002003/TODO-LIST',
-    demo:'https://alexlife2002003.github.io/TODO-LIST/',
-    
+    github: 'https://github.com/Alexlife2002003/TODO-LIST',
+    demo: 'https://alexlife2002003.github.io/TODO-LIST/',
+
   },
   {
-    id:6,
+    id: 6,
     image: IMG6,
     title: 'Github Users',
-    github:'https://github.com/Alexlife2002003/github_users_search',
-    demo:'https://githubusers-408922.wn.r.appspot.com/',
-    
+    github: 'https://github.com/Alexlife2002003/github_users_search',
+    demo: 'https://githubusers-408922.wn.r.appspot.com/',
+
   },
 
   {
-    id:7,
+    id: 7,
     image: IMG7,
     title: 'Cinema Magic',
-    github:'https://github.com/Alexlife2002003/CinemaMagic',
-    demo:'https://alexlife2002003.github.io/CinemaMagic/',
-    
+    github: 'https://github.com/Alexlife2002003/CinemaMagic',
+    demo: 'https://alexlife2002003.github.io/CinemaMagic/',
+
   },
-  
-  
-  
+  {
+    id: 8,
+    image: IMG8,
+    title: 'Inifap',
+    github: 'https://github.com/Alexlife2002003/inifap',
+    demo: 'https://alexlife2002003.github.io/html-projects/',
+
+  },
+
+
+
+
 ]
 const Portfolio = () => {
   return (
@@ -76,26 +86,26 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
-       {
-        data.map(({id,image,title,github,demo}) => {
-          return(
-            <article key={id} className='portfolio_item'>
-              <div className="portfolio_item-image">
-                <img src={image} alt="" />
+        {
+          data.map(({ id, image, title, github, demo }) => {
+            return (
+              <article key={id} className='portfolio_item'>
+                <div className="portfolio_item-image">
+                  <img src={image} alt="" />
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio_item-cta">
                   <a href={github} className='btn' target='_blank'>Github</a>
                   <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
                 </div>
-            </article>
-          )
-        })
-       }
-        
-        
-        
-        
+              </article>
+            )
+          })
+        }
+
+
+
+
       </div>
     </section>
   )

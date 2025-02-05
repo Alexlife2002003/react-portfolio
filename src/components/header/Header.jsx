@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.png'
+import ME from '../../assets/me5.png'
 import HeaderSocials from './HeaderSocials'
 import {TypeAnimation } from 'react-type-animation'
 const Header = () => {

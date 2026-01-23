@@ -9,6 +9,7 @@ import IMG5 from '../../assets/todo.png'
 import IMG6 from '../../assets/github_users.png'
 import IMG7 from '../../assets/CinemaMagic.png'
 import IMG8 from '../../assets/inifap.png'
+import IMG9 from '../../assets/autos.png'
 /* eslint-disable import/first */
 const data = [
   {
@@ -73,6 +74,14 @@ const data = [
     title: 'Inifap',
     github: 'https://github.com/Alexlife2002003/inifap',
     demo: 'https://alexlife2002003.github.io/html-projects/',
+
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: 'Catálogo de carros',
+    github: 'https://github.com/Alexlife2002003/inifap',
+    demo: 'https://venta-autos-demo.web.app/',
 
   },
 

@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7987aed0.css",
-    "main.js": "/react-portfolio/static/js/main.b63aca36.js",
+    "main.css": "/react-portfolio/static/css/main.102c2ad4.css",
+    "main.js": "/react-portfolio/static/js/main.66a4fda3.js",
     "static/media/Menu.png": "/react-portfolio/static/media/Menu.9048fa68ed08cdba4e3d.png",
     "static/media/CinemaMagic.png": "/react-portfolio/static/media/CinemaMagic.076d953e1085d6a9f9c6.png",
+    "static/media/autos.png": "/react-portfolio/static/media/autos.1429feb26cfbb82065d6.png",
     "static/media/collectors.png": "/react-portfolio/static/media/collectors.37bc18ff3c8071923904.png",
     "static/media/inifap.png": "/react-portfolio/static/media/inifap.ef8f4ccbe64b0219fa02.png",
     "static/media/me5.png": "/react-portfolio/static/media/me5.2d1efa6a2d463b29795b.png",
     "static/media/CASE.png": "/react-portfolio/static/media/CASE.cf33565c6aa12b6a6f1f.png",
     "static/media/github_users.png": "/react-portfolio/static/media/github_users.9660183bb7f5f3d2ea56.png",
-    "static/media/CV_Alexia.pdf": "/react-portfolio/static/media/CV_Alexia.176850cdd2747949cb57.pdf",
+    "static/media/resume_alexia_2026.pdf": "/react-portfolio/static/media/resume_alexia_2026.1076ea281e80e6894c3f.pdf",
     "static/media/output.jpg": "/react-portfolio/static/media/output.44510e52d4e73c8f624e.jpg",
     "static/media/me4.jpeg": "/react-portfolio/static/media/me4.0f0d9e19575f5ce4b7e1.jpeg",
     "static/media/bg-texture.jpg": "/react-portfolio/static/media/bg-texture.3f9aaee50f43b5a3e76d.jpg",
     "static/media/todo.png": "/react-portfolio/static/media/todo.5344edd8f9614dee87dd.png",
     "index.html": "/react-portfolio/index.html",
-    "main.7987aed0.css.map": "/react-portfolio/static/css/main.7987aed0.css.map",
-    "main.b63aca36.js.map": "/react-portfolio/static/js/main.b63aca36.js.map"
+    "main.102c2ad4.css.map": "/react-portfolio/static/css/main.102c2ad4.css.map",
+    "main.66a4fda3.js.map": "/react-portfolio/static/js/main.66a4fda3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7987aed0.css",
-    "static/js/main.b63aca36.js"
+    "static/css/main.102c2ad4.css",
+    "static/js/main.66a4fda3.js"
   ]
 }

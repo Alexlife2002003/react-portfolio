@@ -17,7 +17,8 @@ const Header = () => {
             sequence={[
               'Software Engineer', 2000,
               'Full-Stack Developer', 2000,
-              'Flutter Developer', 2000
+              'Flutter Developer', 2000,
+              'Agentic AI Engineer', 2000
             ]}
             speed={50}
             wrapper='span'

@@ -29,7 +29,7 @@ const About = () => {
             <article className='about_card'>
               <FiUsers className='about_icon' />
               <h5>Focus</h5>
-              <small>Mobile, Full-Stack, and AI-assisted systems</small>
+              <small>Mobile, Full-Stack, and Agentic AI</small>
             </article>
 
             <article className='about_card'>
@@ -41,10 +41,10 @@ const About = () => {
 
           <p>
             Hi there! I’m Alexia Hernandez Martinez, a software engineer passionate
-            about building mobile, web, backend, and AI-assisted systems. I enjoy
+            about building mobile, web, backend, and agentic AI systems. I enjoy
             creating cross-platform applications with Flutter, developing full-stack
-            solutions with JavaScript, TypeScript, Python, and SQL, and solving real
-            product problems through thoughtful engineering.
+            solutions with JavaScript, TypeScript, Python, and SQL, and building 
+            agentic AI workflows that solve real product problems through thoughtful engineering.
           </p>
 
           <p>

@@ -45,7 +45,7 @@ const Experience = () => {
         </div>
 
         <div className='experience_backend'>
-          <h3>Backend Development</h3>
+          <h3>Backend & AI Development</h3>
           <div className="experience_content">
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon' />
@@ -70,6 +70,36 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon' />
               <div><h4>Java</h4>
+             </div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon' />
+              <div><h4>Agentic AI</h4>
+             </div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon' />
+              <div><h4>LLMs & APIs</h4>
+             </div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon' />
+              <div><h4>LangChain</h4>
+             </div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon' />
+              <div><h4>Google Gemini & SDK</h4>
+             </div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon' />
+              <div><h4>FastAPI</h4>
+             </div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon' />
+              <div><h4>WebSockets</h4>
              </div>
             </article>
             

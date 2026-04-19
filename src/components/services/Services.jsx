@@ -67,20 +67,24 @@ const Services = () => {
 
         <article className='service'>
           <div className='service_head'>
-            <h3>AI-Assisted Systems</h3>
+            <h3>Agentic AI Systems</h3>
           </div>
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Conversational assistants and workflow-based interactions</p>
+              <p>Autonomous AI agents and workflow-based interactions</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Tool-driven responses using structured data sources</p>
+              <p>Tool-driven AI integrations and dynamic decision making</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Conversation flow design and business-rule enforcement</p>
+              <p>Integration with advanced LLMs like Google Gemini</p>
+            </li>
+            <li>
+              <BiCheck className='service_list-icon' />
+              <p>Agentic workflow orchestration (e.g., using LLMs and tools)</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />

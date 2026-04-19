@@ -31,7 +31,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'Collectors Center',
-    github: 'https://github.com/Alexlife2002003/Collection_Center',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/collection_center.md',
     demo: 'https://alexlife2002003.github.io/CollectionCenter/',
 
   },

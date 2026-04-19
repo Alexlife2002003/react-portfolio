@@ -16,14 +16,14 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Restuarant Menu',
-    github: 'https://github.com/Alexlife2002003/Menu',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/menu.md',
     demo: 'https://alexlife2002003.github.io/Menu/'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Riesgo Suicida',
-    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/riesgo_suicida',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/riesgo_suicida.md',
     demo: 'https://alexlife2002003.github.io/RiesgoSuicida-HTML/',
 
   },

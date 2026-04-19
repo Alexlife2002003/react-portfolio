@@ -64,7 +64,7 @@ const data = [
     id: 7,
     image: IMG7,
     title: 'Cinema Magic',
-    github: 'https://github.com/Alexlife2002003/CinemaMagic',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/cinemaMagic.md',
     demo: 'https://alexlife2002003.github.io/CinemaMagic/',
 
   },
@@ -72,7 +72,7 @@ const data = [
     id: 8,
     image: IMG8,
     title: 'Inifap',
-    github: 'https://github.com/Alexlife2002003/inifap',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/inifap.md',
     demo: 'https://alexlife2002003.github.io/html-projects/',
 
   },
@@ -80,7 +80,7 @@ const data = [
     id: 9,
     image: IMG9,
     title: 'Catálogo de carros',
-    github: 'https://github.com/Alexlife2002003/inifap',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/car-vendor.md',
     demo: 'https://venta-autos-demo.web.app/',
 
   },

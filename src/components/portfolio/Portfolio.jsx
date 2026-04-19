@@ -23,7 +23,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'Riesgo Suicida',
-    github: 'https://github.com/Alexlife2002003/RiesgoSuicida',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/riesgo_suicida',
     demo: 'https://alexlife2002003.github.io/RiesgoSuicida-HTML/',
 
   },
@@ -39,7 +39,7 @@ const data = [
     id: 4,
     image: IMG4,
     title: 'CASE',
-    github: 'https://github.com/Alexlife2002003/CASE',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/case_usuario.md',
     demo: 'https://alexlife2002003.github.io/CASE-html/',
 
   },

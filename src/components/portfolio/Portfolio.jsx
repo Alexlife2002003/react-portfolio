@@ -47,7 +47,7 @@ const data = [
     id: 5,
     image: IMG5,
     title: 'To-do App',
-    github: 'https://github.com/Alexlife2002003/TODO-LIST',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/todo_list.md',
     demo: 'https://alexlife2002003.github.io/TODO-LIST/',
 
   },
@@ -55,7 +55,7 @@ const data = [
     id: 6,
     image: IMG6,
     title: 'Github Users',
-    github: 'https://github.com/Alexlife2002003/github_users_search',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/github_users_search.md',
     demo: 'https://githubusers-408922.wn.r.appspot.com/',
 
   },

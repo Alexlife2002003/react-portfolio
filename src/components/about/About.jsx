@@ -40,26 +40,20 @@ const About = () => {
           </div>
 
           <p>
-            Hi there! I’m Alexia Hernandez Martinez, a software engineer passionate
-            about building mobile, web, backend, and agentic AI systems. I enjoy
-            creating cross-platform applications with Flutter, developing full-stack
-            solutions with JavaScript, TypeScript, Python, and SQL, and building 
-            agentic AI workflows that solve real product problems through thoughtful engineering.
+            Hi, I'm Alexia Hernandez Martinez — a software engineer who builds mobile, 
+            web, backend, and agentic AI systems.
           </p>
 
           <p>
-            My journey in software engineering has been driven by curiosity,
-            continuous learning, and a love for building things that are both useful
-            and well designed. With every project, I enjoy taking on new challenges,
-            improving systems, and creating reliable solutions that make a real impact.
-            Whether I’m working independently or collaborating with a team, I thrive
-            in environments that value creativity, problem-solving, and innovation.
+            I work with Flutter, JavaScript, TypeScript, Python, and SQL to create 
+            cross-platform applications and full-stack solutions. Lately I've been 
+            especially focused on agentic AI workflows — building systems that solve
+            real product problems through thoughtful engineering.
           </p>
 
           <p>
-            My goal is to contribute to projects that improve people’s experiences
-            and solve meaningful problems through technology. Let’s connect and build
-            something great together.
+            My goal is to contribute to projects that improve people's experiences 
+            and solve meaningful problems through technology.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

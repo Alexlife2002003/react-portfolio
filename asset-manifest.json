@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.102c2ad4.css",
-    "main.js": "/react-portfolio/static/js/main.b94eec70.js",
+    "main.css": "/react-portfolio/static/css/main.3ef8d553.css",
+    "main.js": "/react-portfolio/static/js/main.03b98da2.js",
     "static/media/profile_pic.png": "/react-portfolio/static/media/profile_pic.e43af91d31bce998c5af.png",
     "static/media/Menu.png": "/react-portfolio/static/media/Menu.9048fa68ed08cdba4e3d.png",
+    "static/media/AiAgentsPlatform.png": "/react-portfolio/static/media/AiAgentsPlatform.ab25b8268214f26ec5da.png",
     "static/media/CinemaMagic.png": "/react-portfolio/static/media/CinemaMagic.076d953e1085d6a9f9c6.png",
     "static/media/autos.png": "/react-portfolio/static/media/autos.1429feb26cfbb82065d6.png",
     "static/media/collectors.png": "/react-portfolio/static/media/collectors.37bc18ff3c8071923904.png",
@@ -16,11 +17,11 @@
     "static/media/bg-texture.jpg": "/react-portfolio/static/media/bg-texture.3f9aaee50f43b5a3e76d.jpg",
     "static/media/todo.png": "/react-portfolio/static/media/todo.5344edd8f9614dee87dd.png",
     "index.html": "/react-portfolio/index.html",
-    "main.102c2ad4.css.map": "/react-portfolio/static/css/main.102c2ad4.css.map",
-    "main.b94eec70.js.map": "/react-portfolio/static/js/main.b94eec70.js.map"
+    "main.3ef8d553.css.map": "/react-portfolio/static/css/main.3ef8d553.css.map",
+    "main.03b98da2.js.map": "/react-portfolio/static/js/main.03b98da2.js.map"
   },
   "entrypoints": [
-    "static/css/main.102c2ad4.css",
-    "static/js/main.b94eec70.js"
+    "static/css/main.3ef8d553.css",
+    "static/js/main.03b98da2.js"
   ]
 }

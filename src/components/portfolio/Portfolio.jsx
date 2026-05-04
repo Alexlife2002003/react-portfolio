@@ -10,8 +10,17 @@ import IMG6 from '../../assets/github_users.png'
 import IMG7 from '../../assets/CinemaMagic.png'
 import IMG8 from '../../assets/inifap.png'
 import IMG9 from '../../assets/autos.png'
+import IMG10 from '../../assets/AiAgentsPlatform.png'
 /* eslint-disable import/first */
 const data = [
+  {
+    id: 10,
+    image: IMG10,
+    title: 'Alexia Agents - AI Agentic Framework',
+    github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/ai_agents.md',
+    demo: 'https://github.com/Alexlife2002003/public_documentation/blob/main/ai_agents_demo_instructions.md',
+    featured: true
+  },
   {
     id: 1,
     image: IMG1,
@@ -96,9 +105,9 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
         {
-          data.map(({ id, image, title, github, demo }) => {
+          data.map(({ id, image, title, github, demo, featured }) => {
             return (
-              <article key={id} className='portfolio_item'>
+              <article key={id} className={featured ? 'portfolio_item portfolio_item-featured' : 'portfolio_item'}>
                 <div className="portfolio_item-image">
                   <img src={image} alt="" />
                 </div>

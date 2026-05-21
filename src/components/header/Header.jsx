@@ -1,36 +1,51 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me5.png'
+
 import HeaderSocials from './HeaderSocials'
 import { TypeAnimation } from 'react-type-animation'
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header_container">
-        <h5>Hello, I'm</h5>
-        <h1>Alexia Hernandez</h1>
-        <h5>I'm a</h5>
-        <h2 className='text-primary'>
-          <TypeAnimation
-            sequence={[
-              'Software Engineer', 2000,
-              'Full-Stack Developer', 2000,
-              'Flutter Developer', 2000,
-              'Agentic AI Engineer', 2000
-            ]}
-            speed={50}
-            wrapper='span'
-            repeat={Infinity}
-          />
-        </h2>
-        <CTA />
-        <HeaderSocials />
-        <div className="me">
-          <img src={ME} alt="Alexia Hernandez" />
+        <div className="header_content">
+          <div className="badge_availability">
+            <span className="badge_dot"></span>
+            <span className="badge_text">Available for full-time & contracts</span>
+          </div>
+          
+          <h5 className="intro_text">Hello, I'm</h5>
+          <h1 className="name_title">Alexia Hernandez</h1>
+          
+          <div className="role_typing">
+            <span className="role_prefix">I am a </span>
+            <span className="role_text">
+              <TypeAnimation
+                sequence={[
+                  'Software Engineer', 2000,
+                  'Full-Stack Developer', 2000,
+                  'Flutter Specialist', 2000,
+                  'Agentic AI Engineer', 2000
+                ]}
+                speed={50}
+                wrapper='span'
+                repeat={Infinity}
+              />
+            </span>
+          </div>
+          
+          <p className="hero_desc">
+            I build high-performance full-stack applications, seamless cross-platform mobile experiences, 
+            and advanced Agentic AI workflows that turn complex engineering problems into clean, high-impact products.
+          </p>
+          
+          <CTA />
+          
+          <HeaderSocials />
         </div>
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        
+
       </div>
     </header>
   )

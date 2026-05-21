@@ -1,73 +1,148 @@
-.services_container{
+.services_container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 3rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    align-items: stretch;
 }
 
-.service{
-    background: var(--color-bg-variant);
-    border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(--color-primary);
-    height: fit-content;
-    transition: var(--transition);
-}
-
-.service:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-}
-
-.service_head{
-    background: var(--color-primary);
-    padding: 2rem;
-    border-radius: 0 0 2rem 2rem;
-    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
-}
-
-.service_head h3{
-    color: var(--color-bg);
-    font-size: 1rem;
-    text-align: center;
-}
-
-.service_list{
-    padding: 2rem;
-}
-
-.service_list li{
+.service {
+    height: 100%;
     display: flex;
-    gap: 1rem;
-    margin-bottom: 0.8rem;
+    flex-direction: column;
+    border-radius: var(--radius-md) !important;
+    padding: 0;
+    overflow: hidden;
 }
 
-.service_list-icon{
-    color-scheme: var(--color-primary);
-    margin-top: 2px;
-
+/* Individual accent top-borders to visually demarcate specialties */
+.service_mobile {
+    border-top: 3px solid var(--color-primary);
 }
 
-.service_list p{
-    font-size: 0.9rem;
+.service_web {
+    border-top: 3px solid var(--color-purple);
 }
 
-/*=====================MEDIA QUERIES=======================================*/
-@media screen and (max-width:1024px) {
-    .services_container{
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+.service_ai {
+    border-top: 3px solid var(--color-accent);
+}
+
+.service_integration {
+    border-top: 3px solid #6366f1; /* Light indigo */
+}
+
+/* Card hover glow states matching their respective accents */
+.service_mobile:hover {
+    border-color: rgba(56, 189, 248, 0.25);
+    box-shadow: 0 10px 40px rgba(56, 189, 248, 0.06);
+}
+
+.service_web:hover {
+    border-color: rgba(129, 140, 248, 0.25);
+    box-shadow: 0 10px 40px rgba(129, 140, 248, 0.06);
+}
+
+.service_ai:hover {
+    border-color: rgba(52, 211, 153, 0.25);
+    box-shadow: 0 10px 40px rgba(52, 211, 153, 0.06);
+}
+
+.service_integration:hover {
+    border-color: rgba(99, 102, 241, 0.25);
+    box-shadow: 0 10px 40px rgba(99, 102, 241, 0.06);
+}
+
+.service_head {
+    padding: 1.8rem 1.5rem 1rem;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.service_head h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-white);
+    letter-spacing: -0.01em;
+}
+
+.service_list {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    flex-grow: 1;
+}
+
+.service_list li {
+    display: flex;
+    gap: 0.8rem;
+    align-items: flex-start;
+}
+
+.service_icon-wrapper {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.15rem;
+    flex-shrink: 0;
+    transition: var(--transition-fast);
+}
+
+.service_list-icon {
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    transition: var(--transition-fast);
+}
+
+.service_list p {
+    font-size: 0.88rem;
+    color: var(--color-light);
+    line-height: 1.5;
+}
+
+/* List element hover transitions */
+.service:hover .service_icon-wrapper {
+    background: rgba(56, 189, 248, 0.1);
+    border-color: rgba(56, 189, 248, 0.3);
+}
+
+.service:hover .service_list-icon {
+    color: var(--color-primary);
+}
+
+.service_ai:hover .service_icon-wrapper {
+    background: rgba(52, 211, 153, 0.1);
+    border-color: rgba(52, 211, 153, 0.3);
+}
+
+.service_ai:hover .service_list-icon {
+    color: var(--color-accent);
+}
+
+/* ==================== RESPONSIVE MEDIA QUERIES ==================== */
+@media screen and (max-width: 1100px) {
+    .services_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.2rem;
     }
-
-    .service{
-        height: auto;
-    }
-    
 }
 
-@media screen and (max-width:600px) {
-    .services_container{
+@media screen and (max-width: 600px) {
+    .services_container {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 1rem;
     }
     
+    .service_head {
+        padding: 1.2rem 1.2rem 0.8rem;
+    }
+    
+    .service_list {
+        padding: 1.2rem;
+    }
 }

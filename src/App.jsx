@@ -12,6 +12,11 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <>
+      <div className="glow-wrapper">
+        <div className="glow-orb glow-1"></div>
+        <div className="glow-orb glow-2"></div>
+        <div className="glow-orb glow-3"></div>
+      </div>
       <Header />
       <Nav />
       <About />

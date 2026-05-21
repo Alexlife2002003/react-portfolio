@@ -1,71 +1,236 @@
-.experience_container{
+.experience_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 4rem;
+    align-items: start;
 }
 
-.experience_container > div {
-    background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-    
-}
-
-.experience_container > div:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-}
-
-.experience_container > div h3{
-    text-align: center;
+.section_column-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-white);
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    position: relative;
+    padding-left: 1rem;
+    border-left: 3px solid var(--color-primary);
 }
 
-.experience_content{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-}
-
-.experience_details{
+/* ==================== WORK HISTORY TIMELINE ==================== */
+.timeline_flow {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 1.8rem;
+    position: relative;
+    padding-left: 1.5rem;
+    border-left: 2px solid rgba(255, 255, 255, 0.05);
 }
 
-.experience_details-icon{
-    margin-top: 6px;
+.timeline_item {
+    padding: 1.8rem;
+    position: relative;
+    border-radius: var(--radius-md) !important;
+}
+
+.timeline_icon-node {
+    position: absolute;
+    left: -2.35rem;
+    top: 1.8rem;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--color-bg-subtle);
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    font-size: 0.8rem;
+    z-index: 5;
+    transition: var(--transition);
+}
+
+.timeline_item:hover .timeline_icon-node {
+    background: var(--color-primary);
+    color: #030712;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+}
+
+.timeline_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.06);
+}
+
+.timeline_meta h4 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.company_name {
+    font-size: 0.85rem;
+    font-family: 'Fira Code', monospace;
+    color: var(--color-primary);
+    margin-top: 0.1rem;
+    display: inline-block;
+}
+
+.timeline_date {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--color-light);
+    background: rgba(255, 255, 255, 0.03);
+    padding: 0.35rem 0.75rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    white-space: nowrap;
+}
+
+.date_icon {
+    font-size: 0.7rem;
     color: var(--color-primary);
 }
 
-/*=====================MEDIA QUERIES==========================*/
-@media screen and (max-width:1024px) {
-    .experience_container{
+.timeline_bullets {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.timeline_bullets li {
+    font-size: 0.88rem;
+    color: var(--color-light);
+    position: relative;
+    padding-left: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+}
+
+.timeline_bullets li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: var(--transition-fast);
+}
+
+.timeline_item:hover .timeline_bullets li::before {
+    color: var(--color-accent);
+    transform: translateX(2px);
+}
+
+
+/* ==================== TECHNICAL EXPERTISE ==================== */
+.skills_categories-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.skills_category-card {
+    padding: 1.6rem;
+    border-radius: var(--radius-md) !important;
+}
+
+.skills_category-card h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: 1.2rem;
+    letter-spacing: -0.01em;
+}
+
+.skills_chips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.skill_chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 0.45rem 0.95rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    color: var(--color-light);
+    font-weight: 500;
+    transition: var(--transition-fast);
+}
+
+.skill_chip-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--color-muted);
+    transition: var(--transition-fast);
+}
+
+.skill_chip:hover {
+    background: rgba(56, 189, 248, 0.05);
+    border-color: rgba(56, 189, 248, 0.2);
+    color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+.skill_chip:hover .skill_chip-dot {
+    background: var(--color-primary);
+    box-shadow: 0 0 6px var(--color-primary);
+}
+
+/* Accent for AI and complex domains */
+.skills_category-card:nth-child(3) .skill_chip:hover {
+    background: rgba(52, 211, 153, 0.05);
+    border-color: rgba(52, 211, 153, 0.2);
+    color: var(--color-accent);
+}
+
+.skills_category-card:nth-child(3) .skill_chip:hover .skill_chip-dot {
+    background: var(--color-accent);
+    box-shadow: 0 0 6px var(--color-accent);
+}
+
+/* ==================== RESPONSIVE MEDIA QUERIES ==================== */
+@media screen and (max-width: 1024px) {
+    .experience_container {
         grid-template-columns: 1fr;
+        gap: 3.5rem;
     }
+}
 
-    .experience_container > div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    .experience_content{
-        padding: 1rem;
+@media screen and (max-width: 600px) {
+    .timeline_flow {
+        padding-left: 1rem;
     }
     
-}
-
-@media screen and (max-width:600px) {
-    .experience_container{
-        gap: 1rem;
+    .timeline_icon-node {
+        left: -2.1rem;
     }
-
-    .experience_container > div {
-        width: 100%;
-        padding: 2rem 1rem;
+    
+    .timeline_header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.6rem;
+    }
+    
+    .timeline_date {
+        padding: 0.2rem 0.5rem;
+    }
+    
+    .timeline_item {
+        padding: 1.2rem;
     }
 }

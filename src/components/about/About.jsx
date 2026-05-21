@@ -13,48 +13,73 @@ const About = () => {
 
       <div className="container about_container">
         <div className="about_me">
-          <div className="about_me-image">
-            <img src={ME} alt="Alexia Hernandez Martinez" />
+          <div className="about_me-frame">
+            <div className="about_me-image">
+              <img src={ME} alt="Alexia Hernandez Martinez" />
+            </div>
+            <div className="about_me-glow"></div>
           </div>
         </div>
 
         <div className="about_content">
           <div className="about_cards">
-            <article className='about_card'>
-              <FaAward className='about_icon' />
+            <article className='about_card glass-card'>
+              <div className="about_card-icon-wrapper">
+                <FaAward className='about_icon' />
+              </div>
               <h5>Experience</h5>
               <small>2+ years building production software</small>
             </article>
 
-            <article className='about_card'>
-              <FiUsers className='about_icon' />
+            <article className='about_card glass-card'>
+              <div className="about_card-icon-wrapper">
+                <FiUsers className='about_icon' />
+              </div>
               <h5>Focus</h5>
-              <small>Mobile, Full-Stack, and Agentic AI</small>
+              <small>Mobile, Full-Stack, & Agentic AI</small>
             </article>
 
-            <article className='about_card'>
-              <VscFolderLibrary className='about_icon' />
+            <article className='about_card glass-card'>
+              <div className="about_card-icon-wrapper">
+                <VscFolderLibrary className='about_icon' />
+              </div>
               <h5>Projects</h5>
-              <small>End-to-end solutions in Mobile, Analytics, and Agentic AI</small>
+              <small>End-to-end Mobile & AI Solutions</small>
             </article>
           </div>
 
-          <p>
-            Hi, I'm Alexia Hernandez Martinez — a software engineer who builds mobile, 
-            web, backend, and agentic AI systems.
-          </p>
+          <div className="about_text-block">
+            <p>
+              I am a software engineer driven by the challenge of transforming complex logic into high-performance, 
+              scalable production code. Whether it's architecting native-performance mobile apps or orchestrating 
+              autonomous AI agents, I build with speed, precision, and user experience in mind.
+            </p>
 
-          <p>
-            I work with Flutter, JavaScript, TypeScript, Python, and SQL to create 
-            cross-platform applications and full-stack solutions. Lately I've been 
-            especially focused on agentic AI workflows — building systems that solve
-            real product problems through thoughtful engineering.
-          </p>
+            <div className="about_bullets">
+              <div className="about_bullet">
+                <span className="bullet_emoji">🚀</span>
+                <div>
+                  <strong>Cross-Platform Mastery:</strong> Building native-performance, fluid iOS & Android apps using Flutter.
+                </div>
+              </div>
+              <div className="about_bullet">
+                <span className="bullet_emoji">🧠</span>
+                <div>
+                  <strong>Agentic AI Engineering:</strong> Creating intelligent systems that automate decision-making and scale business workflows.
+                </div>
+              </div>
+              <div className="about_bullet">
+                <span className="bullet_emoji">💻</span>
+                <div>
+                  <strong>Full-Stack Excellence:</strong> Engineering secure, optimized backends and web apps with TypeScript, Python, and SQL.
+                </div>
+              </div>
+            </div>
 
-          <p>
-            My goal is to contribute to projects that improve people's experiences 
-            and solve meaningful problems through technology.
-          </p>
+            <p className="about_cta-text">
+              I don't just write code — I architect complete, end-to-end systems that solve meaningful problems.
+            </p>
+          </div>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

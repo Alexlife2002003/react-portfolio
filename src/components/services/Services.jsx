@@ -6,117 +6,151 @@ const Services = () => {
   return (
     <section id='services'>
       <h5>What I Build</h5>
-      <h2>Services</h2>
+      <h2>Services & Solutions</h2>
 
       <div className='container services_container'>
-        <article className='service'>
+        <article className='service glass-card service_mobile'>
           <div className='service_head'>
             <h3>Mobile Development</h3>
           </div>
           <ul className='service_list'>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Cross-platform mobile apps with Flutter</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Architecting native-grade mobile apps using Flutter</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Responsive and user-focused interfaces</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Designing fluid, gesture-driven user interfaces</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>State management and UI flow improvements</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Optimizing offline storage and synchronous data states</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Payments, reservations, and customer-facing features</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Integrating secure checkout, billing, and Stripe APIs</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Debugging and performance improvements</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Profiling rendering bottlenecks and boosting FPS</p>
             </li>
           </ul>
         </article>
 
-        <article className='service'>
+        <article className='service glass-card service_web'>
           <div className='service_head'>
-            <h3>Web & Full-Stack Development</h3>
+            <h3>Web & Full-Stack</h3>
           </div>
           <ul className='service_list'>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Frontend development with React and JavaScript/TypeScript</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Building high-performance React frontends with TypeScript</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Backend development with Node.js, Express, and Django</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Developing scalable backends with Node.js, NestJS, and Python</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>REST API integration and workflow logic</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Designing low-latency RESTful and GraphQL APIs</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Database-driven applications with SQL and PostgreSQL</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Structuring relational and non-relational database schemas</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Prototyping, testing, and feature iteration</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Automating tests, coverage reporting, and CI/CD pipelines</p>
             </li>
           </ul>
         </article>
 
-        <article className='service'>
+        <article className='service glass-card service_ai'>
           <div className='service_head'>
             <h3>Agentic AI Systems</h3>
           </div>
           <ul className='service_list'>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Autonomous AI agents and workflow-based interactions</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Orchestrating autonomous agents and multi-turn agent pipelines</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Tool-driven AI integrations and dynamic decision making</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Integrating runtime tool calling and structured function parsing</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Integration with advanced LLMs like Google Gemini</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Harnessing Google Gemini and advanced LLM APIs</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Agentic workflow orchestration (e.g., using LLMs and tools)</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Implementing reliable safety guardrails and validation rules</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Python-based validation and information processing</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon' />
-              <p>Testing and refining multi-step assistant behavior</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Developing robust context retrieval and memory structures</p>
             </li>
           </ul>
         </article>
 
-        <article className='service'>
+        <article className='service glass-card service_integration'>
           <div className='service_head'>
             <h3>Integrations</h3>
           </div>
           <ul className='service_list'>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Supabase and real-time database integrations</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Real-time synchronization via Supabase and WebSockets</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Stripe payment flows</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Multi-provider payment flows, billing logs, and webhooks</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>Push notifications and external service integrations</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Cross-device push notifications and background execution</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
-              <p>API-based feature development across services</p>
+              <div className="service_icon-wrapper">
+                <BiCheck className='service_list-icon' />
+              </div>
+              <p>Custom third-party SDK and external API orchestrations</p>
             </li>
           </ul>
         </article>

@@ -124,6 +124,43 @@
     font-weight: 500;
 }
 
+/* In Progress glowing tag style */
+.project_tag.tag-in-progress {
+    background: rgba(245, 158, 11, 0.08);
+    border: 1px solid rgba(245, 158, 11, 0.25);
+    color: #fbbf24; /* Amber-400 */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-weight: 600;
+}
+
+.tag-pulse {
+    width: 6px;
+    height: 6px;
+    background-color: #fbbf24;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.6);
+    animation: tagPulseAnim 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+}
+
+@keyframes tagPulseAnim {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.6);
+    }
+    70% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 5px rgba(251, 191, 36, 0);
+    }
+    100% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(251, 191, 36, 0);
+    }
+}
+
+
 /* Custom button states inside cards */
 .portfolio_item-cta {
     display: flex;

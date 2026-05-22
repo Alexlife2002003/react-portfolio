@@ -11,6 +11,7 @@ import IMG7 from '../../assets/CinemaMagic.png'
 import IMG8 from '../../assets/inifap.png'
 import IMG9 from '../../assets/autos.png'
 import IMG10 from '../../assets/AiAgentsPlatform.png'
+import IMG11 from '../../assets/sticker_swap.png'
 
 const data = [
   {
@@ -18,10 +19,19 @@ const data = [
     image: IMG10,
     title: 'Conversational AI Assistant (Google ADK)',
     description: 'An autonomous agent pipeline leveraging Google ADK and Gemini SDK, engineered to streamline multi-turn workflows and business-rule enforcement.',
-    tags: ['Google ADK', 'Agentic AI', 'Gemini SDK', 'Python', 'FastAPI'],
+    tags: ['In Progress', 'Google ADK', 'Agentic AI', 'Gemini SDK', 'Python', 'FastAPI'],
     github: 'https://github.com/Alexlife2002003/public_documentation/blob/main/ai_agents.md',
     demo: 'https://github.com/Alexlife2002003/public_documentation/blob/main/ai_agents_demo_instructions.md',
     featured: true
+  },
+  {
+    id: 11,
+    image: IMG11,
+    title: 'Sticker Swap',
+    description: 'A dynamic, real-time trading platform designed for collectors to manage virtual sticker albums, list duplicate items, and execute seamless swaps.',
+    tags: ['In Progress', 'React', 'Firebase', 'Real-time Sync'],
+    github: 'https://github.com/Alexlife2002003/sticker_swap',
+    demo: 'https://sticker-swap-4d1f6.firebaseapp.com/'
   },
   {
     id: 2,
@@ -123,7 +133,10 @@ const Portfolio = () => {
               <div className="portfolio_item-content">
                 <div className="portfolio_item-tags">
                   {tags && tags.map((tag, index) => (
-                    <span className="project_tag" key={index}>{tag}</span>
+                    <span className={`project_tag ${tag === 'In Progress' ? 'tag-in-progress' : ''}`} key={index}>
+                      {tag === 'In Progress' && <span className="tag-pulse"></span>}
+                      {tag}
+                    </span>
                   ))}
                 </div>
                 
